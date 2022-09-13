@@ -5,7 +5,7 @@ const LDPoSAdapter = require('./index.js');
  */
 
 const adapter = new LDPoSAdapter({
-  apiURL: 'wss://test.capitalisk.com:443',
+  apiURL: 'wss://test.capitalisk.com/socketcluster/',
   chainSymbol: 'clsk',
   chainModuleName: 'capitalisk_chain',
 });
@@ -21,11 +21,6 @@ const adapter = new LDPoSAdapter({
   console.log(passphrase);
   console.log(await adapter.getAddressFromPassphrase({ passphrase }));
   console.log(adapter.validatePassphrase({ passphrase }));
-  console.log(
-    await adapter.getLatestOutboundTransactions({
-      address: 'clsk64b2a2884f3498ad37e4cdc9c7088dc17c0e2c09',
-    }),
-  );
   console.log(
     await adapter.getAccountNextKeyIndex({
       address: 'clsk64b2a2884f3498ad37e4cdc9c7088dc17c0e2c09',
