@@ -74,10 +74,6 @@ class LDPoSAdapter {
     await this.client.postTransaction(transaction);
   }
 
-  async getLatestOutboundTransactions({ address, limit }) {
-    return this.client.getOutboundTransactions(address, null, limit, 'desc');
-  }
-
   async getAccountNextKeyIndex({ address }) {
     let account = await this.client.getAccount(address);
     return account.nextSigKeyIndex;
