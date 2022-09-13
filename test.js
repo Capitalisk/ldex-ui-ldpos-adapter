@@ -1,10 +1,10 @@
-const ArkAdapter = require('./index.js');
+const LDPoSAdapter = require('./index.js');
 
 /**
  * clsk64b2a2884f3498ad37e4cdc9c7088dc17c0e2c09 tattoo either tennis fly nothing gun come civil ready top glare resemble
  */
 
-const adapter = new ArkAdapter({
+const adapter = new LDPoSAdapter({
   apiURL: 'wss://test.capitalisk.com:443',
   chainSymbol: 'clsk',
   chainModuleName: 'capitalisk_chain',
