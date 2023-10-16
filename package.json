@@ -1,6 +1,6 @@
 {
   "name": "ldex-ui-ldpos-adapter",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "LDPoS client adapter for LDEX UI.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/Capitalisk/ldex-ui-ldpos-adapter#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "ldpos-client": "^12.0.0"
+    "ldpos-client": "^12.0.1"
   }
 }
