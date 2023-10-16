@@ -1,6 +1,6 @@
 {
   "name": "ldex-ui-ldpos-adapter",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "LDPoS client adapter for LDEX UI.",
   "main": "index.js",
   "scripts": {
