@@ -4,7 +4,7 @@ const { createClient } = require('ldpos-client');
 const DEFAULT_API_MAX_PAGE_SIZE = 100;
 const DEFAULT_API_TIMEOUT = 20000;
 const DEFAULT_NETHASH = null;
-const DEFAULT_SOCKET_PROTOCOL_VERSION = 1;
+const DEFAULT_SOCKET_PROTOCOL_VERSION = 2;
 const DEFAULT_PEER_PROTOCOL_VERSION = '1.1';
 const DEFAULT_CLIENT_VERSION = '2.0.0';
 
